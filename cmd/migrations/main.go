@@ -4,8 +4,8 @@ import (
 	"flag"
 	"log"
 
-	"github.com/kuromii5/auth-part/internal/config"
-	"github.com/kuromii5/auth-part/internal/repo"
+	"github.com/VadimShara/auth-part/internal/config"
+	"github.com/VadimShara/auth-part/internal/repo"
 
 	"github.com/golang-migrate/migrate/v4"
 	_ "github.com/golang-migrate/migrate/v4/database/postgres"

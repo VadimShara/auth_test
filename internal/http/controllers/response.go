@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/go-chi/render"
-	"github.com/kuromii5/auth-part/internal/models"
+	"github.com/VadimShara/auth-part/internal/models"
 )
 
 func RespondOK(w http.ResponseWriter, r *http.Request) {

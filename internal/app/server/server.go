@@ -9,10 +9,10 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
-	"github.com/kuromii5/auth-part/internal/http/controllers"
-	mwlog "github.com/kuromii5/auth-part/internal/http/middleware/mw_log"
-	"github.com/kuromii5/auth-part/internal/repo"
-	"github.com/kuromii5/auth-part/internal/service"
+	"github.com/VadimShara/auth-part/internal/http/controllers"
+	mwlog "github.com/VadimShara/auth-part/internal/http/middleware/mw_log"
+	"github.com/VadimShara/auth-part/internal/repo"
+	"github.com/VadimShara/auth-part/internal/service"
 )
 
 type Server struct {

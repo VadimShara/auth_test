@@ -9,11 +9,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/kuromii5/auth-part/internal/app/logger"
-	"github.com/kuromii5/auth-part/internal/app/server"
-	"github.com/kuromii5/auth-part/internal/config"
-	"github.com/kuromii5/auth-part/internal/repo"
-	le "github.com/kuromii5/auth-part/pkg/logger/l_err"
+	"github.com/VadimShara/auth-part/internal/app/logger"
+	"github.com/VadimShara/auth-part/internal/app/server"
+	"github.com/VadimShara/auth-part/internal/config"
+	"github.com/VadimShara/auth-part/internal/repo"
+	le "github.com/VadimShara/auth-part/pkg/logger/l_err"
 )
 
 type App struct {

@@ -7,10 +7,10 @@ import (
 	"net/http"
 
 	"github.com/golang-jwt/jwt"
-	"github.com/kuromii5/auth-part/internal/models"
-	"github.com/kuromii5/auth-part/internal/repo"
-	"github.com/kuromii5/auth-part/pkg/email"
-	le "github.com/kuromii5/auth-part/pkg/logger/l_err"
+	"github.com/VadimShara/auth-part/internal/models"
+	"github.com/VadimShara/auth-part/internal/repo"
+	"github.com/VadimShara/auth-part/pkg/email"
+	le "github.com/VadimShara/auth-part/pkg/logger/l_err"
 	"golang.org/x/crypto/bcrypt"
 )
 

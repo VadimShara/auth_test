@@ -10,8 +10,8 @@ import (
 
 	"github.com/golang-jwt/jwt"
 	"github.com/google/uuid"
-	"github.com/kuromii5/auth-part/internal/models"
-	le "github.com/kuromii5/auth-part/pkg/logger/l_err"
+	"github.com/VadimShara/auth-part/internal/models"
+	le "github.com/VadimShara/auth-part/pkg/logger/l_err"
 	"golang.org/x/crypto/bcrypt"
 )
 

@@ -40,7 +40,7 @@ type PostgresConfig struct {
 }
 
 func init() {
-	err := godotenv.Load()
+	err := godotenv.Load("C:/Users/vadim/auth-part/.env")
 	if err != nil {
 		log.Fatal("Error loading .env file")
 	}

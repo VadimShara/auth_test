@@ -4,8 +4,8 @@ import (
 	"log/slog"
 	"os"
 
-	offlog "github.com/kuromii5/auth-part/pkg/logger/off"
-	prettylog "github.com/kuromii5/auth-part/pkg/logger/pretty"
+	offlog "github.com/VadimShara/auth-part/pkg/logger/off"
+	prettylog "github.com/VadimShara/auth-part/pkg/logger/pretty"
 )
 
 var (

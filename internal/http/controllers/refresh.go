@@ -5,7 +5,7 @@ import (
 	"log/slog"
 	"net/http"
 
-	le "github.com/kuromii5/auth-part/pkg/logger/l_err"
+	le "github.com/VadimShara/auth-part/pkg/logger/l_err"
 )
 
 type TokenRefresher interface {

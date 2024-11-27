@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/google/uuid"
-	le "github.com/kuromii5/auth-part/pkg/logger/l_err"
+	le "github.com/VadimShara/auth-part/pkg/logger/l_err"
 )
 
 type TokenIssuer interface {

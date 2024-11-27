@@ -1,6 +1,6 @@
 package main
 
-import "github.com/kuromii5/auth-part/internal/app"
+import "github.com/VadimShara/auth-part/internal/app"
 
 func main() {
 	app := app.NewApp()

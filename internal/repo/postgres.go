@@ -9,8 +9,8 @@ import (
 
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/kuromii5/auth-part/internal/config"
-	"github.com/kuromii5/auth-part/internal/models"
+	"github.com/VadimShara/auth-part/internal/config"
+	"github.com/VadimShara/auth-part/internal/models"
 )
 
 var (
